@@ -37,7 +37,7 @@ public class EditCityFragment extends DialogFragment {
         layout.addView(provinceEditText);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Add/Edit City");
+        builder.setTitle("Edit City");
         builder.setView(layout);
 
         builder.setPositiveButton("OK", (dialog, id) -> {
